@@ -1,5 +1,4 @@
-'use strict';
-
+var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -8,15 +7,15 @@ module.exports = {
   devtool: 'source-map',
   entry: 'app.coffee',
   module: {
-    loaders: [
+    rules: [
         {
           test: /\.coffee$/,
-          loader: 'coffee-loader',
+          use: 'coffee-loader',
 	  exclude: /(node_modules)/,
         },
         {
           test: /\.(coffee\.md|litcoffee)$/,
-          loader: 'coffee-loader?literate',
+          use: 'coffee-loader?literate',
 	  exclude: /(node_module)/,
         },
     ],
@@ -32,13 +31,11 @@ module.exports = {
     }),
   ],
   resolve: {
-    root:  [__dirname + '/src/'],
-    modulesDirectories: [__dirname + '/src/modules/'],
-    extensions: ['', '.web.coffee', '.web.js', '.coffee', '.js'],
-  },
-  resolveLoader: {
-    modulesDirectories: [
-        __dirname + '/node_modules/',
+    modules: [
+      path.resolve(__dirname, 'src'),
+      path.resolve(__dirname, '/src/modules/'),
+      'node_modules'
     ],
-  },
+    extensions: ['.web.coffee', '.web.js', '.coffee', '.js'],
+  }
 };

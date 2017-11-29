@@ -1,5 +1,3 @@
-'use strict';
-
 var gulp = require('gulp');
 var coffee = require('gulp-coffee');
 var gutil = require('gulp-util');
