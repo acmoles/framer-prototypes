@@ -12,17 +12,16 @@ deviceWidth = device.screen.width
 
 Framer.Defaults.Layer.force2d = true
 
-app = Framer.Importer.load("app.framer/imported/app@1x")
+app = Framer.Importer.load("app.framer/imported/app@2x")
 app.Mobile.center()
 
-app.circle.opacity = 0.9
 app.circle.center()
 console.log app.circle.x
 
 app.circle.states = {
 	second: {x: 0, y:0, scale:0.6, rotationZ:100},
 	third:  {y:300, scale:1.3},
-	fourth:	{x: deviceWidth / 2 - app.circle.width / 2, y:200, scale:0.9, rotationZ:200}
+	fourth:	{x: deviceWidth / 2 - app.circle.width / 2, y:200, scale:0.9, rotationZ:200, blur: 20}
 }
 
 # Set the default animation options

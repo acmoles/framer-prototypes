@@ -1,3 +1,5 @@
+See: https://medium.com/@cunliffeandrewc/using-sketch-and-framer-to-create-responsive-mobile-prototypes-for-remote-testing-part-1-a0f4d0d98e2c
+
 ### What's this
 
 A 'work in progress' idea that allow you to create a Framer prototype starting from your Sketch. Nothing new, but there is a plus.
