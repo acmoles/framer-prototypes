@@ -21,7 +21,7 @@ var paths = {
   appIndex: path.join(__dirname, 'src/app.coffee'),
   appHTML: path.join(__dirname, 'src/index.html'),
   appImages: path.join(__dirname, 'src/images/**/*.{png, jpg, svg}'),
-  appModules: path.join(__dirname, 'src/modules/*.coffee'),
+  appModules: path.join(__dirname, 'src/modules/**'),
   appCSS: path.join(__dirname, 'src/style.css'),
   importedFromSketchFold: path.join(__dirname, 'src/**/imported/**/**'),
   importedFromSketchJson: path.join(__dirname, 'src/**/imported/**/**/*.json'),
