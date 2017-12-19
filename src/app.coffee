@@ -21,15 +21,11 @@ Framer.Defaults.Layer.force2d = true
 fadeTransition = () ->
    transition =
       layerA:
-          show:
-             opacity: 1
-          hide:
-             opacity: 0
+          show: { opacity: 1 }
+          hide: { opacity: 0 }
       layerB:
-          show:
-             opacity: 1
-          hide:
-             opacity: 0
+          show: { opacity: 1 }
+          hide: { opacity: 0 }
 
 s = Framer.Importer.load("app.framer/imported/app@2x")
 

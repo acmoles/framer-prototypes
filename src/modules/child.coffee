@@ -10,10 +10,62 @@ export class child
 
     self = this
 
-    @s.continue_child.on Events.Click, (event, layer) ->
-      self.flow.transition(self.s.Delivery_address, self.fadeTransition)
-      self.s.Delivery_address.visible = true
+    @assignTransition( @s.continue_child, self.s.Delivery_address )
+    @assignTransition( @s.back_to_account, self.s.Account )
+    @assignTransition( @s.add_child, self.s.Child_details_2 )
 
-    @s.continue_child_2.on Events.Click, (event, layer) ->
-      self.flow.transition(self.s.Delivery_address, self.fadeTransition)
-      self.s.Delivery_address.visible = true
+    @assignTransition( @s.continue_child_2, self.s.Delivery_address )
+    @assignTransition( @s.back_to_account_2, self.s.Account )
+
+    # Product select dropdown
+
+    @assignInactiveState( @s.dropdown_inline_rectangle )
+    @s.caret.states =
+      active:
+        rotation: 180
+      inactive:
+        rotation: 0
+    @assignActiveState( @s.whitemask_child )
+    @assignActiveState( @s.dropdown_dropped_rectangle )
+    @assignActiveState( @s.dropped_boxes )
+
+    clickoff = [
+      @s.box_details
+      @s.dropped_boxes
+      @s.dropdown_dropped_rectangle
+    ]
+    for link in clickoff
+      do (link) ->
+        link.on  Events.Click, self.dropdownEvent.bind(self)
+
+  dropdownEvent: (event, layer) ->
+    this.s.caret.stateCycle 'active', 'inactive'
+    this.s.dropdown_inline_rectangle.stateCycle 'active', 'inactive'
+    this.s.whitemask_child.visible = if this.s.whitemask_child.visible then false else true
+    this.s.whitemask_child.stateCycle 'inactive', 'active'
+    this.s.dropdown_dropped_rectangle.visible = if this.s.dropdown_dropped_rectangle.visible then false else true
+    this.s.dropdown_dropped_rectangle.stateCycle 'inactive', 'active'
+    this.s.dropped_boxes.visible = if this.s.dropped_boxes.visible then false else true
+    this.s.dropped_boxes.stateCycle 'inactive', 'active'
+
+  assignTransition: (button, transitionTo) ->
+    self = this
+    button.on Events.Click, (event, layer) ->
+      self.flow.transition(transitionTo, self.fadeTransition)
+      transitionTo.visible = true
+
+  assignActiveState: (object) ->
+    object.states =
+      active:
+        opacity: 1
+      inactive:
+        opacity: 0
+    object.stateSwitch 'inactive'
+
+  assignInactiveState: (object) ->
+    object.states =
+      active:
+        opacity: 1
+      inactive:
+        opacity: 0
+    object.stateSwitch 'active'
