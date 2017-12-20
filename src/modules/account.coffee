@@ -5,9 +5,13 @@ export class account
 
   init: () ->
 
+    @a.visible = false
+
     sl = this
 
-    @assignTransition( @s.continue_account, sl.s.Child_details )
+    @assignTransition( @s.continue_account, sl.s.Delivery_address )
+    @assignTransition( @s.back_to_product, sl.s.Products )
+
 
     # Login
     @s.have_an_account.on Events.Click, (event, layer) ->
@@ -39,10 +43,12 @@ export class account
         rotation: 180
       sl.s.caret_account.animate 'active'
 
+    # TODO do order summary
 
 
 
-    @assignTransition( @s.login, sl.s.Child_details )
+
+    @assignTransition( @s.login, sl.s.Delivery_address )
 
 
   assignTransition: (button, transitionTo) ->

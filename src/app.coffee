@@ -1,5 +1,7 @@
-{ account } = require './modules/account'
+{ homepage } = require './modules/homepage'
 { child } = require './modules/child'
+{ product } = require './modules/product'
+{ account } = require './modules/account'
 { delivery } = require './modules/delivery'
 { payment } = require './modules/payment'
 { summary } = require './modules/summary'
@@ -35,11 +37,17 @@ flow = new FlowComponent
 flow.center()
 flow.backgroundColor = "white"
 
-a = new account(s, flow, fadeTransition)
-a.init()
+h = new homepage(s, flow, fadeTransition)
+h.init()
 
 c = new child(s, flow, fadeTransition)
 c.init()
+
+r = new product(s, flow, fadeTransition)
+r.init()
+
+a = new account(s, flow, fadeTransition)
+a.init()
 
 d = new delivery(s, flow, fadeTransition)
 d.init()
@@ -50,7 +58,7 @@ p.init()
 sum = new summary(s, flow, fadeTransition)
 sum.init()
 
-flow.showNext(s.Account)
+flow.showNext(s.Homepage)
 
 # Set the default animation options
 animationOptions = {

@@ -1,7 +1,5 @@
 myLayers = Framer.Importer.load("imported/app@2x")
 
-myLayers = Framer.Importer.load("imported/app@1x")
-
 
 // Demo code: bounce all the views
 

@@ -10,12 +10,12 @@ export class delivery
 
     self = this
 
-    @assignTransition( @s.continue_address_1, self.s.Payment_details )
-    @assignTransition( @s.back_to_personalisation_1, self.s.Child_details )
-    @assignTransition( @s.same_address_1, self.s.Delivery_address_2 )
+    @assignTransition( @s.back_to_account, self.s.Account )
+    @assignTransition( @s.continue_address, self.s.Payment_details )
+    @assignTransition( @s.same_address, self.s.Delivery_address_2 )
 
-    @assignTransition( @s.continue_address_2, self.s.Payment_details_1 )
-    @assignTransition( @s.back_to_personalisation_2, self.s.Child_details_2 )
+    @assignTransition( @s.continue_address_2, self.s.Payment_details )
+    @assignTransition( @s.back_to_account_2, self.s.Account )
 
 
   assignTransition: (button, transitionTo) ->
