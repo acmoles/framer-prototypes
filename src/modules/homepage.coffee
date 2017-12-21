@@ -9,17 +9,39 @@ export class homepage
 
     self = this
 
-    @assignTransition( @s.get_started, self.s.Child_details )
-    @assignTransition( @s.sticky_get_started, self.s.Child_details )
+    @s.sticky_get_started.parent = null
+    @s.sticky_get_started.y = @flow.y + 58
+    @s.sticky_get_started.opacity = 0
+    @s.sticky_get_started.centerX();
+    @s.sticky_get_started.states =
+      out:
+          y: @flow.y + 58
+          opacity: 0
+      in:
+          y: @flow.y + 78
+          opacity: 1
+    visible = false
 
-    @assignTransition( @s.get_started_code, self.s.Child_details_2 )
-    @assignTransition( @s.sticky_code_get_started, self.s.Child_details_2 )
+    @flow.scroll.onMove ->
+      if self.flow.scroll.scrollY >= 700 && !visible
+        visible = true
+        self.s.sticky_get_started.stateCycle('in', 'out')
+      else if self.flow.scroll.scrollY < 700 && visible
+        visible = false
+        self.s.sticky_get_started.stateCycle('out', 'in')
+      else
+        # body...
 
-    @flow.showOverlayTop(@s.sticky_get_started)
+    @assignTransition( @s.get_started, self.s.Child_details, @s.sticky_get_started )
+    @assignTransition( @s.sticky_get_started, self.s.Child_details, @s.sticky_get_started )
+
+    @assignTransition( @s.get_started_code, self.s.Child_details_2, @s.sticky_get_started )
+    @assignTransition( @s.sticky_get_started_code, self.s.Child_details_2, @s.sticky_get_started )
 
 
-  assignTransition: (button, transitionTo) ->
+  assignTransition: (button, transitionTo, Overlay) ->
     self = this
     button.on Events.Click, (event, layer) ->
+      self.s.sticky_get_started.stateCycle('out', 'in')
       self.flow.transition(transitionTo, self.fadeTransition)
       transitionTo.visible = true

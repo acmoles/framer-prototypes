@@ -37,6 +37,21 @@ flow = new FlowComponent
 flow.center()
 flow.backgroundColor = "white"
 
+header = new Layer
+  image: 'framer/images/header.png'
+  width: 360
+  height: 79
+
+footer = new Layer
+  image: 'framer/images/navbar.png'
+  width: 360
+  height: 48
+
+flow.header = header
+flow.footer = footer
+
+flow.showNext(s.Homepage)
+
 h = new homepage(s, flow, fadeTransition)
 h.init()
 
@@ -57,8 +72,6 @@ p.init()
 
 sum = new summary(s, flow, fadeTransition)
 sum.init()
-
-flow.showNext(s.Homepage)
 
 # Set the default animation options
 animationOptions = {
