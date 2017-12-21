@@ -42,6 +42,6 @@ export class homepage
   assignTransition: (button, transitionTo, Overlay) ->
     self = this
     button.on Events.Click, (event, layer) ->
-      self.s.sticky_get_started.stateCycle('out', 'in')
+      self.s.sticky_get_started.visible = false
       self.flow.transition(transitionTo, self.fadeTransition)
       transitionTo.visible = true
