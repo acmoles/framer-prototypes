@@ -1,3 +1,30 @@
+@import url("//hello.myfonts.net/count/303c97");
+
+@font-face {
+    font-family: "Kent4F";
+    src: url("/fonts/303C97_6_0.woff");
+}
+
+@font-face {
+    font-family: "FFScalaSansWebProRegular";
+    src: url("/fonts/303C97_0_0.woff");
+}
+
+@font-face {
+    font-family: "FFScalaSansWebProBold";
+    src: url("/fonts/303C97_1_0");
+}
+
+@font-face {
+    font-family: "FFScalaSansWebProBoldItalic";
+    src: url("/fonts/303C97_2_0");
+}
+
+@font-face {
+    font-family: "FFScalaSansWebProItalic";
+    src: url("/fonts/303C97_3_0");
+}
+
 * {
 	margin: 0;
 	padding: 0;

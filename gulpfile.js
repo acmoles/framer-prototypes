@@ -12,17 +12,19 @@ var argv = require('yargs').argv;
 var webpackCfg = require('./webpack.config.js');
 
 var paths = {
-  framerModuleBuild: path.join(__dirname, 'node_modules/framerjs/build/*'),
+  framerModuleBuild: path.join(__dirname, 'Framer/Project/framer/*'),
   src: path.join(__dirname, 'src'),
   build: path.join(__dirname, 'build'),
   buildFramer: path.join(__dirname, 'build/framer'),
   buildFolders: path.join(__dirname, 'build/**/**/*.*'),
   buildImages: path.join(__dirname, 'build/framer/images'),
+  buildFonts: path.join(__dirname, 'build/fonts'),
   appIndex: path.join(__dirname, 'src/app.coffee'),
   appHTML: path.join(__dirname, 'src/index.html'),
-  appImages: path.join(__dirname, 'src/images/**/*.{png, jpg, svg}'),
-  appModules: path.join(__dirname, 'src/modules/**'),
+  appImages: path.join(__dirname, 'src/images/**/**/*.{png, jpg, svg}'),
+  appModules: path.join(__dirname, 'src/modules/*.coffee'),
   appCSS: path.join(__dirname, 'src/style.css'),
+  appFonts: path.join(__dirname, 'src/fonts/**/**/*'),
   importedFromSketchFold: path.join(__dirname, 'src/**/imported/**/**'),
   importedFromSketchJson: path.join(__dirname, 'src/**/imported/**/**/*.json'),
   sketchSlices: path.join(__dirname, 'src/*.slices.sketch'),
@@ -61,6 +63,9 @@ gulp.task('copy:static', function () {
 
   var cssStream = gulp.src(paths.appCSS)
     .pipe(gulp.dest(paths.build));
+
+  var fontStream = gulp.src(paths.appFonts)
+    .pipe(gulp.dest(paths.buildFonts));
 
   return mergeStream(htmlStream, imagesStream, cssStream);
 });

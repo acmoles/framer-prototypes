@@ -1,10 +1,11 @@
-{ homepage } = require './modules/homepage'
-{ child } = require './modules/child'
-{ product } = require './modules/product'
-{ account } = require './modules/account'
-{ delivery } = require './modules/delivery'
-{ payment } = require './modules/payment'
-{ summary } = require './modules/summary'
+# { homepage } = require './modules/homepage'
+# { child } = require './modules/child'
+# { product } = require './modules/product'
+# { account } = require './modules/account'
+# { delivery } = require './modules/delivery'
+# { payment } = require './modules/payment'
+{ boxBuilder } = require './modules/box-builder'
+{ Modals } = require './modules/modals'
 
 Framer.Extras.Preloader.enable()
 
@@ -23,12 +24,13 @@ Framer.Defaults.Layer.force2d = true
 fadeTransition = () ->
    transition =
       layerA:
-          show: { opacity: 1 }
-          hide: { opacity: 0 }
+          show: { options: {time: 0.1}, opacity: 1 }
+          hide: { options: {time: 0.1}, opacity: 0 }
       layerB:
-          show: { opacity: 1 }
-          hide: { opacity: 0 }
+          show: { options: {time: 0.1}, opacity: 1 }
+          hide: { options: {time: 0.1}, opacity: 0 }
 
+# generated sketch file
 s = Framer.Importer.load("app.framer/imported/app@2x")
 
 flow = new FlowComponent
@@ -50,28 +52,19 @@ footer = new Layer
 flow.header = header
 flow.footer = footer
 
-flow.showNext(s.Homepage)
+footer.on Events.Click, (event, layer) ->
+  flow.showPrevious()
 
-h = new homepage(s, flow, fadeTransition)
-h.init()
+flow.showNext(s.build_box)
 
-c = new child(s, flow, fadeTransition)
-c.init()
+# page modules
+b = new boxBuilder(s, flow, fadeTransition)
+b.init()
 
-r = new product(s, flow, fadeTransition)
-r.init()
+m = new Modals(s, flow, fadeTransition)
+m.init()
 
-a = new account(s, flow, fadeTransition)
-a.init()
 
-d = new delivery(s, flow, fadeTransition)
-d.init()
-
-p = new payment(s, flow, fadeTransition)
-p.init()
-
-sum = new summary(s, flow, fadeTransition)
-sum.init()
 
 # Set the default animation options
 animationOptions = {
