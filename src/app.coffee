@@ -1,11 +1,5 @@
-# { homepage } = require './modules/homepage'
-# { child } = require './modules/child'
-# { product } = require './modules/product'
-# { account } = require './modules/account'
-# { delivery } = require './modules/delivery'
-# { payment } = require './modules/payment'
-{ boxBuilder } = require './modules/box-builder'
-{ Modals } = require './modules/modals'
+
+{ boxBuilder } = require './modules/build-box-page/box-builder'
 
 Framer.Extras.Preloader.enable()
 
@@ -61,8 +55,6 @@ flow.showNext(s.build_box)
 b = new boxBuilder(s, flow, fadeTransition)
 b.init()
 
-m = new Modals(s, flow, fadeTransition)
-m.init()
 
 
 
