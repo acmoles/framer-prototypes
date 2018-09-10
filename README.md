@@ -2,7 +2,7 @@
 
 Design in Sketch. Framer.js to add interatction. Automated using Gulp, Webpack and BrowserSync.
 
-Inspired by [this blog post](https://blog.prototypr.io/automate-your-ux-design-workflow-with-framer-js-gulp-and-sketch-cc2e8484e4b7#.yw2i6ophx) and [this one] (https://medium.com/@cunliffeandrewc/using-sketch-and-framer-to-create-responsive-mobile-prototypes-for-remote-testing-part-1-a0f4d0d98e2c)
+Inspired by [this blog post](https://blog.prototypr.io/automate-your-ux-design-workflow-with-framer-js-gulp-and-sketch-cc2e8484e4b7#.yw2i6ophx) and [this one](https://medium.com/@cunliffeandrewc/using-sketch-and-framer-to-create-responsive-mobile-prototypes-for-remote-testing-part-1-a0f4d0d98e2c)
 
 ### Requirements
 
