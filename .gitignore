@@ -33,7 +33,7 @@ node_modules/
 
 # Ignore build folder #
 #######################
-# build/ #
+build/
 
 # Ignore imported Sketch files and #
 # folders not useful for the build #
