@@ -1,4 +1,4 @@
-### Boiler plate code for Framer.js
+### Boilerplate for Framer.js
 
 Design in Sketch. Framer.js to add interatction. Automated using Gulp, Webpack and BrowserSync.
 
