@@ -1,13 +1,8 @@
-### What's this
+### Boiler plate code for Framer.js
 
-A 'work in progress' idea that allow you to create a Framer prototype starting from your Sketch. Nothing new, but there is a plus.
-You can design with Sketch, add animations and interactions with Framer and it's all automated using Gulp, Webpack and BrowserSync.
+Design in Sketch. Framer.js to add interatction. Automated using Gulp, Webpack and BrowserSync.
 
-You can work in your Sketch file, add interactions in your CoffeeScript main app file, save and automagically have the animated prototype updated with the new code and images inside the build folder.
-
-[Try Demo](https://framer-ux.herokuapp.com/)
-
-[Read blog post](https://blog.prototypr.io/automate-your-ux-design-workflow-with-framer-js-gulp-and-sketch-cc2e8484e4b7#.yw2i6ophx)
+Inspired by [this blog post](https://blog.prototypr.io/automate-your-ux-design-workflow-with-framer-js-gulp-and-sketch-cc2e8484e4b7#.yw2i6ophx) and [this one] (https://medium.com/@cunliffeandrewc/using-sketch-and-framer-to-create-responsive-mobile-prototypes-for-remote-testing-part-1-a0f4d0d98e2c)
 
 ### Requirements
 
@@ -26,9 +21,9 @@ You can work in your Sketch file, add interactions in your CoffeeScript main app
     2. If you don't have [Homebrew Cask](http://caskroom.io/), run `$ brew tap caskroom/cask`
     3. Install sketch-tool with `$ brew cask install sketch-tool`
 
-3. Download and install latest version of [Framer Generator](http://builds.framerjs.com/)
+3. Download and install latest version of [Framer Generator](http://builds.framerjs.com/) (working version in this repo)
 
-4. Run `$ npm install`. At the moment it takes a lot to install and build Framer JS via Github, there should be a better solution (I had some problems with npm version of the library)
+4. Run `$ npm install`
 
 ### Usage
 
