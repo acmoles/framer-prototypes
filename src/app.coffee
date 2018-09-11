@@ -1,7 +1,14 @@
 
 { boxBuilder } = require './modules/build-box-page/box-builder'
+# TODO: add child page, add a child on same page
+# TODO: chose no crafts in next box? Message shows
+# TODO: preferences can be chosen? on first child? Or just screen?
+
+# TODO: start in account home screen?
+# TODO: can go from manage subscriptions? Add another child when added in choose your box? Global variable
 
 Framer.Extras.Preloader.enable()
+Framer.Extras.Preloader.setLogo('../framer/images/content/logo_square.png')
 
 # setup device for presentation
 device = new Framer.DeviceView();

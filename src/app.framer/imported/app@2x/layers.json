@@ -9,7 +9,7 @@
 			"x": 828,
 			"y": -194,
 			"width": 360,
-			"height": 1300
+			"height": 1255
 		},
 		"visible": true,
 		"metadata": {},
@@ -930,7 +930,7 @@
 							"width": 30,
 							"height": 34
 						},
-						"visible": false,
+						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
@@ -938,6 +938,33 @@
 							"path": "images/Layer-back_box-qjbboue1.png",
 							"frame": {
 								"x": 25,
+								"y": 238,
+								"width": 30,
+								"height": 34
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "B1B50A1A-8121-4DBD-85EE-AB0E0DB93027",
+						"kind": "group",
+						"name": "forward_box",
+						"originalName": "forward_box",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 305,
+							"y": 238,
+							"width": 30,
+							"height": 34
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-forward_box-qjfcntbb.png",
+							"frame": {
+								"x": 305,
 								"y": 238,
 								"width": 30,
 								"height": 34
@@ -957,7 +984,7 @@
 							"width": 30,
 							"height": 34
 						},
-						"visible": false,
+						"visible": true,
 						"metadata": {
 							"opacity": 1
 						},
@@ -1000,28 +1027,36 @@
 						"children": []
 					},
 					{
-						"objectId": "B1B50A1A-8121-4DBD-85EE-AB0E0DB93027",
-						"kind": "group",
-						"name": "forward_box",
-						"originalName": "forward_box",
+						"objectId": "AB4AACE0-F443-486F-9621-54739FC4858A",
+						"kind": "text",
+						"name": "box_name_future",
+						"originalName": "box_name_future",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 305,
-							"y": 238,
-							"width": 30,
-							"height": 34
+							"x": 101,
+							"y": 245,
+							"width": 156,
+							"height": 17
 						},
 						"visible": true,
 						"metadata": {
-							"opacity": 1
+							"opacity": 1,
+							"string": "October 2018",
+							"css": [
+								"/* October 2018: */",
+								"font-family: Kent4F;",
+								"font-size: 22px;",
+								"color: #1BBEBF;",
+								"letter-spacing: 0.4px;"
+							]
 						},
 						"image": {
-							"path": "images/Layer-forward_box-qjfcntbb.png",
+							"path": "images/Layer-box_name_future-qui0qufd.png",
 							"frame": {
-								"x": 305,
-								"y": 238,
-								"width": 30,
-								"height": 34
+								"x": 101,
+								"y": 245,
+								"width": 156,
+								"height": 17
 							}
 						},
 						"children": []
@@ -1129,11 +1164,11 @@
 			"x": 1683,
 			"y": -194,
 			"width": 360,
-			"height": 640
+			"height": 513
 		},
 		"visible": true,
 		"metadata": {},
-		"backgroundColor": "rgba(251, 247, 244, 1)",
+		"backgroundColor": "rgba(251, 247, 244, 0)",
 		"children": [
 			{
 				"objectId": "29C99FF3-6B66-4DB3-B86D-25A9ED5D80F0",
@@ -1143,9 +1178,9 @@
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 30,
-					"y": 30,
+					"y": 15,
 					"width": 315,
-					"height": 569
+					"height": 479
 				},
 				"visible": true,
 				"metadata": {
@@ -1160,7 +1195,7 @@
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 305,
-							"y": 30,
+							"y": 15,
 							"width": 40,
 							"height": 44
 						},
@@ -1172,7 +1207,7 @@
 							"path": "images/Layer-close_butterfly-qzvfndy4.png",
 							"frame": {
 								"x": 305,
-								"y": 30,
+								"y": 15,
 								"width": 40,
 								"height": 44
 							}
@@ -1187,9 +1222,9 @@
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 30,
-							"y": 45,
+							"y": 30,
 							"width": 300,
-							"height": 554
+							"height": 464
 						},
 						"visible": true,
 						"metadata": {
@@ -1199,9 +1234,9 @@
 							"path": "images/Layer-butterfly_modal-mejeruzg.png",
 							"frame": {
 								"x": 30,
-								"y": 45,
+								"y": 30,
 								"width": 300,
-								"height": 554
+								"height": 464
 							}
 						},
 						"children": []
@@ -1220,11 +1255,11 @@
 			"x": 1288,
 			"y": -194,
 			"width": 360,
-			"height": 640
+			"height": 513
 		},
 		"visible": true,
 		"metadata": {},
-		"backgroundColor": "rgba(251, 247, 244, 1)",
+		"backgroundColor": "rgba(251, 247, 244, 0)",
 		"children": [
 			{
 				"objectId": "13CE82F4-9E10-4F1D-BBD9-962925BAEAB6",
@@ -1234,9 +1269,9 @@
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 30,
-					"y": 30,
+					"y": 12,
 					"width": 315,
-					"height": 569
+					"height": 479
 				},
 				"visible": true,
 				"metadata": {
@@ -1251,7 +1286,7 @@
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 305,
-							"y": 30,
+							"y": 12,
 							"width": 40,
 							"height": 44
 						},
@@ -1263,7 +1298,7 @@
 							"path": "images/Layer-close_modern_art-neuymjyw.png",
 							"frame": {
 								"x": 305,
-								"y": 30,
+								"y": 12,
 								"width": 40,
 								"height": 44
 							}
@@ -1278,9 +1313,9 @@
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 30,
-							"y": 45,
+							"y": 27,
 							"width": 300,
-							"height": 554
+							"height": 464
 						},
 						"visible": true,
 						"metadata": {
@@ -1290,9 +1325,9 @@
 							"path": "images/Layer-modern_art_modal-mengodmz.png",
 							"frame": {
 								"x": 30,
-								"y": 45,
+								"y": 27,
 								"width": 300,
-								"height": 554
+								"height": 464
 							}
 						},
 						"children": []
@@ -1311,11 +1346,11 @@
 			"x": 2078,
 			"y": -194,
 			"width": 360,
-			"height": 640
+			"height": 513
 		},
 		"visible": true,
 		"metadata": {},
-		"backgroundColor": "rgba(251, 247, 244, 1)",
+		"backgroundColor": "rgba(251, 247, 244, 0)",
 		"children": [
 			{
 				"objectId": "5BB70939-78E3-423B-B8E4-2FDE46A4C459",
@@ -1325,9 +1360,9 @@
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 30,
-					"y": 30,
+					"y": 4,
 					"width": 315,
-					"height": 583
+					"height": 496
 				},
 				"visible": true,
 				"metadata": {
@@ -1342,7 +1377,7 @@
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 305,
-							"y": 30,
+							"y": 4,
 							"width": 40,
 							"height": 44
 						},
@@ -1354,7 +1389,7 @@
 							"path": "images/Layer-close_shadow_puppets-mtm0n0i4.png",
 							"frame": {
 								"x": 305,
-								"y": 30,
+								"y": 4,
 								"width": 40,
 								"height": 44
 							}
@@ -1369,9 +1404,9 @@
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 30,
-							"y": 45,
+							"y": 19,
 							"width": 300,
-							"height": 568
+							"height": 481
 						},
 						"visible": true,
 						"metadata": {
@@ -1381,9 +1416,9 @@
 							"path": "images/Layer-shadow_puppets_modal-nkqxodqw.png",
 							"frame": {
 								"x": 30,
-								"y": 45,
+								"y": 19,
 								"width": 300,
-								"height": 568
+								"height": 481
 							}
 						},
 						"children": []
@@ -1399,14 +1434,14 @@
 		"originalName": "van_gogh_look",
 		"maskFrame": null,
 		"layerFrame": {
-			"x": 2473,
+			"x": 2470,
 			"y": -194,
 			"width": 360,
-			"height": 640
+			"height": 513
 		},
 		"visible": true,
 		"metadata": {},
-		"backgroundColor": "rgba(251, 247, 244, 1)",
+		"backgroundColor": "rgba(251, 247, 244, 0)",
 		"children": [
 			{
 				"objectId": "78A9EE46-04B5-4C4D-BC92-6310B6E86948",
@@ -1416,9 +1451,9 @@
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 30,
-					"y": 30,
+					"y": 3,
 					"width": 315,
-					"height": 583
+					"height": 496
 				},
 				"visible": true,
 				"metadata": {
@@ -1433,7 +1468,7 @@
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 305,
-							"y": 30,
+							"y": 3,
 							"width": 40,
 							"height": 44
 						},
@@ -1445,7 +1480,7 @@
 							"path": "images/Layer-close_van_gogh-nuy0rkze.png",
 							"frame": {
 								"x": 305,
-								"y": 30,
+								"y": 3,
 								"width": 40,
 								"height": 44
 							}
@@ -1460,9 +1495,9 @@
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 30,
-							"y": 45,
+							"y": 18,
 							"width": 300,
-							"height": 568
+							"height": 481
 						},
 						"visible": true,
 						"metadata": {
@@ -1472,9 +1507,9 @@
 							"path": "images/Layer-van_gogh_modal-qzu4qjux.png",
 							"frame": {
 								"x": 30,
-								"y": 45,
+								"y": 18,
 								"width": 300,
-								"height": 568
+								"height": 481
 							}
 						},
 						"children": []
@@ -1498,7 +1533,213 @@
 		"visible": true,
 		"metadata": {},
 		"backgroundColor": "rgba(255, 255, 255, 1)",
+		"image": {
+			"path": "images/Layer-box_mixer-m0y1qtff.png",
+			"frame": {
+				"x": 1288,
+				"y": 543,
+				"width": 360,
+				"height": 130
+			}
+		},
 		"children": [
+			{
+				"objectId": "6D7073B4-F646-4A05-A1A4-A448DF56C0C6",
+				"kind": "group",
+				"name": "sticky_forward",
+				"originalName": "sticky_forward",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 335,
+					"y": 58,
+					"width": 10,
+					"height": 13
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-sticky_forward-nkq3mdcz.png",
+					"frame": {
+						"x": 335,
+						"y": 58,
+						"width": 10,
+						"height": 13
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "90096DFD-4BDD-4F79-A1A2-DEBE2DA27698",
+				"kind": "group",
+				"name": "sticky_back",
+				"originalName": "sticky_back",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 13,
+					"y": 58,
+					"width": 10,
+					"height": 13
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-sticky_back-otawotze.png",
+					"frame": {
+						"x": 13,
+						"y": 58,
+						"width": 10,
+						"height": 13
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "7EC6D6CC-E149-4838-A10A-40A73E0B5BDC",
+				"kind": "group",
+				"name": "sticky_future",
+				"originalName": "sticky_future",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 45,
+					"y": 11,
+					"width": 270,
+					"height": 109
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "F11FB630-C8EC-449E-BDAB-79277A57C055",
+						"kind": "text",
+						"name": "pandp_future",
+						"originalName": "pandp_future",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 97,
+							"y": 32,
+							"width": 97,
+							"height": 18
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1,
+							"string": "including P&P",
+							"css": [
+								"/* including P&P: */",
+								"font-family: ScalaSansPro-Regular;",
+								"font-size: 16px;",
+								"color: #FFFFFF;",
+								"letter-spacing: 0.26px;"
+							]
+						},
+						"image": {
+							"path": "images/Layer-pandp_future-rjexrki2.png",
+							"frame": {
+								"x": 97,
+								"y": 32,
+								"width": 97,
+								"height": 18
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "BECB3D13-98B1-4FCB-81A5-5C3683473AFE",
+						"kind": "text",
+						"name": "sticky_box_name",
+						"originalName": "sticky_box_name",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 45,
+							"y": 11,
+							"width": 128,
+							"height": 14
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1,
+							"string": "October 2018",
+							"css": [
+								"/* October 2018: */",
+								"font-family: Kent4F;",
+								"font-size: 18px;",
+								"color: #FFFFFF;",
+								"letter-spacing: 0.33px;"
+							]
+						},
+						"image": {
+							"path": "images/Layer-sticky_box_name-qkvdqjne.png",
+							"frame": {
+								"x": 45,
+								"y": 11,
+								"width": 128,
+								"height": 14
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "8A986170-72BC-4E6D-8D05-33FDA8ED3518",
+						"kind": "group",
+						"name": "add_on_layer_future",
+						"originalName": "add_on_layer_future",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 45,
+							"y": 60,
+							"width": 270,
+							"height": 60
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-add_on_layer_future-oee5odyx.png",
+							"frame": {
+								"x": 45,
+								"y": 60,
+								"width": 270,
+								"height": 60
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "1795E197-FC39-49B4-BFB4-00B47978BFA1",
+						"kind": "group",
+						"name": "craft_layer_future",
+						"originalName": "craft_layer_future",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 45,
+							"y": 60,
+							"width": 270,
+							"height": 60
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-craft_layer_future-mtc5nuux.png",
+							"frame": {
+								"x": 45,
+								"y": 60,
+								"width": 270,
+								"height": 60
+							}
+						},
+						"children": []
+					}
+				]
+			},
 			{
 				"objectId": "B6E10C00-B950-4AAE-AC36-BA57C4DB1944",
 				"kind": "group",
@@ -1506,203 +1747,16 @@
 				"originalName": "sticky",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 0,
-					"y": -4,
-					"width": 360,
-					"height": 134
+					"x": 45,
+					"y": 11,
+					"width": 270,
+					"height": 109
 				},
 				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
-				"image": {
-					"path": "images/Layer-sticky-qjzfmtbd.png",
-					"frame": {
-						"x": 0,
-						"y": -4,
-						"width": 360,
-						"height": 134
-					}
-				},
 				"children": [
-					{
-						"objectId": "6D7073B4-F646-4A05-A1A4-A448DF56C0C6",
-						"kind": "group",
-						"name": "sticky_forward",
-						"originalName": "sticky_forward",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 335,
-							"y": 58,
-							"width": 10,
-							"height": 13
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-sticky_forward-nkq3mdcz.png",
-							"frame": {
-								"x": 335,
-								"y": 58,
-								"width": 10,
-								"height": 13
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "90096DFD-4BDD-4F79-A1A2-DEBE2DA27698",
-						"kind": "group",
-						"name": "sticky_back",
-						"originalName": "sticky_back",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 13,
-							"y": 58,
-							"width": 10,
-							"height": 13
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-sticky_back-otawotze.png",
-							"frame": {
-								"x": 13,
-								"y": 58,
-								"width": 10,
-								"height": 13
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "ABC7ECC4-548E-4616-AD8E-003C9852C49F",
-						"kind": "text",
-						"name": "crafts_toggle",
-						"originalName": "crafts_toggle",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 265,
-							"y": 17,
-							"width": 37,
-							"height": 8
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1,
-							"string": "crafts",
-							"css": [
-								"/* crafts: */",
-								"font-family: Kent4F;",
-								"font-size: 10px;",
-								"color: #FFFFFF;",
-								"letter-spacing: 0.19px;"
-							]
-						},
-						"image": {
-							"path": "images/Layer-crafts_toggle-qujdn0vd.png",
-							"frame": {
-								"x": 265,
-								"y": 17,
-								"width": 37,
-								"height": 8
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "28B7F6DF-0279-4983-86DA-CD0B108A5A3B",
-						"kind": "text",
-						"name": "add_ons_toggle",
-						"originalName": "add_ons_toggle",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 261,
-							"y": 35,
-							"width": 44,
-							"height": 8
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1,
-							"string": "Add-ons",
-							"css": [
-								"/* Add-ons: */",
-								"font-family: Kent4F;",
-								"font-size: 10px;",
-								"color: #FFFFFF;",
-								"letter-spacing: 0.19px;"
-							]
-						},
-						"image": {
-							"path": "images/Layer-add_ons_toggle-mjhcn0y2.png",
-							"frame": {
-								"x": 261,
-								"y": 35,
-								"width": 44,
-								"height": 8
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "8850C96E-64C4-42DF-9A33-C0BEB63A127D",
-						"kind": "group",
-						"name": "toggle_add_ons_highlight",
-						"originalName": "toggle_add_ons_highlight",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 254,
-							"y": 30,
-							"width": 60,
-							"height": 20
-						},
-						"visible": false,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-toggle_add_ons_highlight-odg1mem5.png",
-							"frame": {
-								"x": 254,
-								"y": 30,
-								"width": 60,
-								"height": 20
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "358767F7-A24C-4EDD-80A3-BF225075846C",
-						"kind": "group",
-						"name": "toggle_craft_highlight",
-						"originalName": "toggle_craft_highlight",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 254,
-							"y": 10,
-							"width": 60,
-							"height": 20
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-toggle_craft_highlight-mzu4nzy3.png",
-							"frame": {
-								"x": 254,
-								"y": 10,
-								"width": 60,
-								"height": 20
-							}
-						},
-						"children": []
-					},
 					{
 						"objectId": "34C5F4F0-CF80-48F0-A90C-8DC7414E1E91",
 						"kind": "text",
@@ -1741,11 +1795,11 @@
 					{
 						"objectId": "A334F89D-29C7-4D4D-A40B-2DF4C8476592",
 						"kind": "text",
-						"name": "sticky_box_name",
+						"name": "sticky_box_name1",
 						"originalName": "sticky_box_name",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 46,
+							"x": 45,
 							"y": 11,
 							"width": 85,
 							"height": 14
@@ -1765,15 +1819,317 @@
 						"image": {
 							"path": "images/Layer-sticky_box_name-qtmzney4.png",
 							"frame": {
-								"x": 46,
+								"x": 45,
 								"y": 11,
 								"width": 85,
 								"height": 14
 							}
 						},
 						"children": []
+					},
+					{
+						"objectId": "E6460B15-88C5-466D-AF94-35C480F8B94D",
+						"kind": "group",
+						"name": "add_on_layer",
+						"originalName": "add_on_layer",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 45,
+							"y": 60,
+							"width": 270,
+							"height": 60
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-add_on_layer-rty0njbc.png",
+							"frame": {
+								"x": 45,
+								"y": 60,
+								"width": 270,
+								"height": 60
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "A285FB85-0CB0-40FA-AF12-920CC4B941F1",
+						"kind": "group",
+						"name": "craft_layer",
+						"originalName": "craft_layer",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 45,
+							"y": 60,
+							"width": 270,
+							"height": 60
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-craft_layer-qti4nuzc.png",
+							"frame": {
+								"x": 45,
+								"y": 60,
+								"width": 270,
+								"height": 60
+							}
+						},
+						"children": []
 					}
 				]
+			}
+		]
+	},
+	{
+		"objectId": "0EC96512-9DEE-4F70-B7A5-F5B3CBEEBEFF",
+		"kind": "artboard",
+		"name": "sticky_menu_toggle",
+		"originalName": "sticky_menu_toggle",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 1288,
+			"y": 692,
+			"width": 60,
+			"height": 40
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(255, 255, 255, 0)",
+		"image": {
+			"path": "images/Layer-sticky_menu_toggle-mevdoty1.png",
+			"frame": {
+				"x": 1288,
+				"y": 692,
+				"width": 60,
+				"height": 40
+			}
+		},
+		"children": [
+			{
+				"objectId": "E03F3848-B187-44CA-9E69-C63AC88A1E67",
+				"kind": "text",
+				"name": "crafts_toggle",
+				"originalName": "crafts_toggle",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 11,
+					"y": 7,
+					"width": 37,
+					"height": 8
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "crafts",
+					"css": [
+						"/* crafts: */",
+						"font-family: Kent4F;",
+						"font-size: 10px;",
+						"color: #FFFFFF;",
+						"letter-spacing: 0.19px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-crafts_toggle-rtazrjm4.png",
+					"frame": {
+						"x": 11,
+						"y": 7,
+						"width": 37,
+						"height": 8
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "DD57C192-CC11-4FDC-8828-CB46DC68EF9D",
+				"kind": "text",
+				"name": "add_ons_toggle",
+				"originalName": "add_ons_toggle",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 7,
+					"y": 25,
+					"width": 44,
+					"height": 8
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 0.75,
+					"string": "Add-ons",
+					"css": [
+						"/* Add-ons: */",
+						"font-family: Kent4F;",
+						"font-size: 10px;",
+						"color: #FFFFFF;",
+						"letter-spacing: 0.19px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-add_ons_toggle-req1n0mx.png",
+					"frame": {
+						"x": 7,
+						"y": 25,
+						"width": 44,
+						"height": 8
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "289C07B8-D6EA-4756-A31F-813612B4571A",
+				"kind": "group",
+				"name": "crafts_toggle_highlight",
+				"originalName": "crafts_toggle_highlight",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 60,
+					"height": 20
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-crafts_toggle_highlight-mjg5qza3.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 60,
+						"height": 20
+					}
+				},
+				"children": []
+			}
+		]
+	},
+	{
+		"objectId": "42775FA4-0B78-4BCB-A449-BB70889E1ED5",
+		"kind": "artboard",
+		"name": "sticky_menu_toggle_add_ons",
+		"originalName": "sticky_menu_toggle_add_ons",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 1358,
+			"y": 692,
+			"width": 60,
+			"height": 40
+		},
+		"visible": true,
+		"metadata": {},
+		"backgroundColor": "rgba(255, 255, 255, 0)",
+		"image": {
+			"path": "images/Layer-sticky_menu_toggle_add_ons-ndi3nzvg.png",
+			"frame": {
+				"x": 1358,
+				"y": 692,
+				"width": 60,
+				"height": 40
+			}
+		},
+		"children": [
+			{
+				"objectId": "5A88AD4E-4D57-4A4F-BF9C-961465F2ECEE",
+				"kind": "text",
+				"name": "crafts_toggle1",
+				"originalName": "crafts_toggle",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 11,
+					"y": 7,
+					"width": 37,
+					"height": 8
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 0.75,
+					"string": "crafts",
+					"css": [
+						"/* crafts: */",
+						"font-family: Kent4F;",
+						"font-size: 10px;",
+						"color: #FFFFFF;",
+						"letter-spacing: 0.19px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-crafts_toggle-nue4oefe.png",
+					"frame": {
+						"x": 11,
+						"y": 7,
+						"width": 37,
+						"height": 8
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "FE84E43B-4C6D-44A3-8CB3-3A30DD060B3E",
+				"kind": "text",
+				"name": "add_ons_toggle1",
+				"originalName": "add_ons_toggle",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 7,
+					"y": 25,
+					"width": 44,
+					"height": 8
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1,
+					"string": "Add-ons",
+					"css": [
+						"/* Add-ons: */",
+						"font-family: Kent4F;",
+						"font-size: 10px;",
+						"color: #FFFFFF;",
+						"letter-spacing: 0.19px;"
+					]
+				},
+				"image": {
+					"path": "images/Layer-add_ons_toggle-rku4neu0.png",
+					"frame": {
+						"x": 7,
+						"y": 25,
+						"width": 44,
+						"height": 8
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "DA11DECF-EE27-461F-9FEF-9E9E7E5103E3",
+				"kind": "group",
+				"name": "add_ons_toggle_highlight",
+				"originalName": "add_ons_toggle_highlight",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": 20,
+					"width": 60,
+					"height": 20
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-add_ons_toggle_highlight-reexmurf.png",
+					"frame": {
+						"x": 0,
+						"y": 20,
+						"width": 60,
+						"height": 20
+					}
+				},
+				"children": []
 			}
 		]
 	}
