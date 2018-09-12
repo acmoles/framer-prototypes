@@ -1551,10 +1551,10 @@ window.__imported__["app@2x/layers.json.js"] = [
 				"originalName": "sticky_forward",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 335,
-					"y": 58,
-					"width": 10,
-					"height": 13
+					"x": 319,
+					"y": 45,
+					"width": 40,
+					"height": 40
 				},
 				"visible": true,
 				"metadata": {
@@ -1563,10 +1563,10 @@ window.__imported__["app@2x/layers.json.js"] = [
 				"image": {
 					"path": "images/Layer-sticky_forward-nkq3mdcz.png",
 					"frame": {
-						"x": 335,
-						"y": 58,
-						"width": 10,
-						"height": 13
+						"x": 319,
+						"y": 45,
+						"width": 40,
+						"height": 40
 					}
 				},
 				"children": []
@@ -1578,10 +1578,10 @@ window.__imported__["app@2x/layers.json.js"] = [
 				"originalName": "sticky_back",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 13,
-					"y": 58,
-					"width": 10,
-					"height": 13
+					"x": 0,
+					"y": 45,
+					"width": 40,
+					"height": 40
 				},
 				"visible": true,
 				"metadata": {
@@ -1590,10 +1590,10 @@ window.__imported__["app@2x/layers.json.js"] = [
 				"image": {
 					"path": "images/Layer-sticky_back-otawotze.png",
 					"frame": {
-						"x": 13,
-						"y": 58,
-						"width": 10,
-						"height": 13
+						"x": 0,
+						"y": 45,
+						"width": 40,
+						"height": 40
 					}
 				},
 				"children": []

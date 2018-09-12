@@ -8,7 +8,23 @@
 # TODO: can go from manage subscriptions? Add another child when added in choose your box? Global variable
 
 Framer.Extras.Preloader.enable()
+# Framer.Extras.Preloader.brand.style.backgroundScale = 'cover'
+console.log Framer.Extras.Preloader
 Framer.Extras.Preloader.setLogo('../framer/images/content/logo_square.png')
+preload_images = [
+  '../framer/images/content/butterfly.png',
+  '../framer/images/content/modern_art.png',
+  '../framer/images/content/shadow_puppets.png',
+  '../framer/images/content/van_gogh.png',
+  '../framer/images/content/name-tag.png',
+  '../framer/images/content/cat-book.png',
+  '../framer/images/content/brush.png',
+  '../framer/images/content/stickers.png'
+]
+for image in preload_images
+  Framer.Extras.Preloader.addImage(image)
+
+Framer.Extras.Hints.enable()
 
 # setup device for presentation
 device = new Framer.DeviceView();
