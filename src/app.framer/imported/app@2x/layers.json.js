@@ -203,7 +203,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"originalName": "bag_tag_add*",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 160,
+									"x": 161,
 									"y": 476,
 									"width": 165,
 									"height": 41
@@ -215,7 +215,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-bag_tag_add-mzmzqjgw.png",
 									"frame": {
-										"x": 160,
+										"x": 161,
 										"y": 476,
 										"width": 165,
 										"height": 41

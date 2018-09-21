@@ -48,6 +48,19 @@ export class stickyBuilder
   addItemClickEvent: (button, type, image, price) ->
     self = this
     button.on Events.Click, (event, layer) ->
+      console.log this.children
+      innerSelf = this
+      this.animate
+        opacity: 0.5
+        options:
+          time: 0.2
+      setTimeout ( ->
+        innerSelf.animate
+          opacity: 1
+          options:
+            time: 0.2
+      ), 200
+
       if (type == 'crafts')
         self.addCraft(image)
       else if (type == 'add-ons')
