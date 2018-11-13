@@ -27,4 +27,5 @@
     "build": "gulp build",
     "serve": "harp server ./build"
   }
+  { "engines" : { "node" : "8.11.2" } }
 }
