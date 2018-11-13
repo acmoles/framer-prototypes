@@ -17,6 +17,149 @@ window.__imported__["app@2x/layers.json.js"] = [
 		"backgroundColor": "rgba(255, 255, 255, 1)",
 		"children": [
 			{
+				"objectId": "BBA33948-AAE0-401C-8730-12C5A800DBFE",
+				"kind": "group",
+				"name": "swap_list",
+				"originalName": "swap_list",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 61,
+					"y": 293,
+					"width": 245,
+					"height": 32
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"children": [
+					{
+						"objectId": "33733D8F-1B04-48FF-BA0D-30D4B4D0E863",
+						"kind": "group",
+						"name": "choose_add_ons",
+						"originalName": "choose_add_ons*",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 210,
+							"y": 288,
+							"width": 106,
+							"height": 37
+						},
+						"visible": false,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-choose_add_ons-mzm3mzne.png",
+							"frame": {
+								"x": 210,
+								"y": 288,
+								"width": 106,
+								"height": 37
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "73688BF1-7C5E-472F-98A6-BBFDCACF8A6A",
+						"kind": "text",
+						"name": "choose_add_ons_disabled",
+						"originalName": "choose_add_ons_disabled*",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 218,
+							"y": 293,
+							"width": 88,
+							"height": 15
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1,
+							"string": "add-ons",
+							"css": [
+								"font-family: Kent4F;",
+								"font-size: 20px;",
+								"color: #777C7F;",
+								"letter-spacing: 0.33px;",
+								"text-align: center;"
+							]
+						},
+						"image": {
+							"path": "images/Layer-choose_add_ons_disabled-nzm2odhc.png",
+							"frame": {
+								"x": 218,
+								"y": 293,
+								"width": 88,
+								"height": 15
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "EF1181A8-20A3-47CE-B64C-7E140C8E3F42",
+						"kind": "group",
+						"name": "choose_crafts",
+						"originalName": "choose_crafts*",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 61,
+							"y": 293,
+							"width": 74,
+							"height": 32
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-choose_crafts-ruyxmtgx.png",
+							"frame": {
+								"x": 61,
+								"y": 293,
+								"width": 74,
+								"height": 32
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "05FF3D7A-EC17-4F9F-9AC9-1EAB18D4E768",
+						"kind": "text",
+						"name": "choose_crafts_disabled",
+						"originalName": "choose_crafts_disabled*",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 45,
+							"y": 288,
+							"width": 106,
+							"height": 24
+						},
+						"visible": false,
+						"metadata": {
+							"opacity": 1,
+							"string": "crafts",
+							"css": [
+								"font-family: Kent4F;",
+								"font-size: 20px;",
+								"color: #777C7F;",
+								"letter-spacing: 0.33px;",
+								"text-align: center;"
+							]
+						},
+						"image": {
+							"path": "images/Layer-choose_crafts_disabled-mdvgrjne.png",
+							"frame": {
+								"x": 45,
+								"y": 288,
+								"width": 106,
+								"height": 24
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
 				"objectId": "B6414146-EE51-425E-97DF-8EC257FFB846",
 				"kind": "group",
 				"name": "add_ons_group",
@@ -24,11 +167,11 @@ window.__imported__["app@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 15,
-					"y": 378,
+					"y": 353,
 					"width": 330,
 					"height": 715
 				},
-				"visible": false,
+				"visible": true,
 				"metadata": {
 					"opacity": 1
 				},
@@ -41,7 +184,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 15,
-							"y": 748,
+							"y": 723,
 							"width": 330,
 							"height": 159
 						},
@@ -58,7 +201,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 160,
-									"y": 846,
+									"y": 821,
 									"width": 165,
 									"height": 41
 								},
@@ -70,7 +213,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-brush_add-mujcmkfg.png",
 									"frame": {
 										"x": 160,
-										"y": 846,
+										"y": 821,
 										"width": 165,
 										"height": 41
 									}
@@ -85,7 +228,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 15,
-									"y": 748,
+									"y": 723,
 									"width": 330,
 									"height": 159
 								},
@@ -97,7 +240,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-brush-njmym0zf.png",
 									"frame": {
 										"x": 15,
-										"y": 748,
+										"y": 723,
 										"width": 330,
 										"height": 159
 									}
@@ -114,7 +257,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 15,
-							"y": 562,
+							"y": 537,
 							"width": 330,
 							"height": 159
 						},
@@ -131,7 +274,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 160,
-									"y": 660,
+									"y": 635,
 									"width": 165,
 									"height": 41
 								},
@@ -143,7 +286,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-cat_book_add-rke1qzi2.png",
 									"frame": {
 										"x": 160,
-										"y": 660,
+										"y": 635,
 										"width": 165,
 										"height": 41
 									}
@@ -158,7 +301,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 15,
-									"y": 562,
+									"y": 537,
 									"width": 330,
 									"height": 159
 								},
@@ -170,7 +313,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-cat_book-qjc1ndne.png",
 									"frame": {
 										"x": 15,
-										"y": 562,
+										"y": 537,
 										"width": 330,
 										"height": 159
 									}
@@ -187,7 +330,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 15,
-							"y": 378,
+							"y": 353,
 							"width": 330,
 							"height": 159
 						},
@@ -203,8 +346,8 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"originalName": "bag_tag_add*",
 								"maskFrame": null,
 								"layerFrame": {
-									"x": 161,
-									"y": 476,
+									"x": 160,
+									"y": 451,
 									"width": 165,
 									"height": 41
 								},
@@ -215,8 +358,8 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"image": {
 									"path": "images/Layer-bag_tag_add-mzmzqjgw.png",
 									"frame": {
-										"x": 161,
-										"y": 476,
+										"x": 160,
+										"y": 451,
 										"width": 165,
 										"height": 41
 									}
@@ -231,7 +374,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 15,
-									"y": 378,
+									"y": 353,
 									"width": 330,
 									"height": 159
 								},
@@ -243,7 +386,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-bag_tag-n0myqzqz.png",
 									"frame": {
 										"x": 15,
-										"y": 378,
+										"y": 353,
 										"width": 330,
 										"height": 159
 									}
@@ -260,7 +403,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 15,
-							"y": 934,
+							"y": 909,
 							"width": 330,
 							"height": 159
 						},
@@ -277,7 +420,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 160,
-									"y": 1032,
+									"y": 1007,
 									"width": 165,
 									"height": 41
 								},
@@ -289,7 +432,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-stickers_add-rjfdmkfb.png",
 									"frame": {
 										"x": 160,
-										"y": 1032,
+										"y": 1007,
 										"width": 165,
 										"height": 41
 									}
@@ -304,7 +447,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 15,
-									"y": 934,
+									"y": 909,
 									"width": 330,
 									"height": 159
 								},
@@ -316,7 +459,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-stickers-rdkymkfg.png",
 									"frame": {
 										"x": 15,
-										"y": 934,
+										"y": 909,
 										"width": 330,
 										"height": 159
 									}
@@ -335,7 +478,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 15,
-					"y": 378,
+					"y": 353,
 					"width": 330,
 					"height": 715
 				},
@@ -352,7 +495,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 15,
-							"y": 934,
+							"y": 909,
 							"width": 330,
 							"height": 159
 						},
@@ -369,7 +512,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 160,
-									"y": 1032,
+									"y": 1007,
 									"width": 165,
 									"height": 41
 								},
@@ -381,7 +524,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-starry_night_add-oui3rkq0.png",
 									"frame": {
 										"x": 160,
-										"y": 1032,
+										"y": 1007,
 										"width": 165,
 										"height": 41
 									}
@@ -401,7 +544,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								},
 								"layerFrame": {
 									"x": 35,
-									"y": 954,
+									"y": 929,
 									"width": 110,
 									"height": 115
 								},
@@ -413,7 +556,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-look_inside_starry_night-mddgqujb.png",
 									"frame": {
 										"x": 35,
-										"y": 954,
+										"y": 929,
 										"width": 110,
 										"height": 115
 									}
@@ -428,7 +571,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 15,
-									"y": 934,
+									"y": 909,
 									"width": 330,
 									"height": 159
 								},
@@ -440,7 +583,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-starry_night-nzbcntvb.png",
 									"frame": {
 										"x": 15,
-										"y": 934,
+										"y": 909,
 										"width": 330,
 										"height": 159
 									}
@@ -457,7 +600,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 15,
-							"y": 562,
+							"y": 537,
 							"width": 330,
 							"height": 159
 						},
@@ -474,7 +617,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 160,
-									"y": 660,
+									"y": 635,
 									"width": 165,
 									"height": 41
 								},
@@ -486,7 +629,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-shadow_puppets_add-nuewm0fg.png",
 									"frame": {
 										"x": 160,
-										"y": 660,
+										"y": 635,
 										"width": 165,
 										"height": 41
 									}
@@ -506,7 +649,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								},
 								"layerFrame": {
 									"x": 35,
-									"y": 582,
+									"y": 557,
 									"width": 110,
 									"height": 115
 								},
@@ -518,7 +661,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-look_inside_shadow_puppets-nuzertzb.png",
 									"frame": {
 										"x": 35,
-										"y": 582,
+										"y": 557,
 										"width": 110,
 										"height": 115
 									}
@@ -533,7 +676,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 15,
-									"y": 562,
+									"y": 537,
 									"width": 330,
 									"height": 159
 								},
@@ -545,7 +688,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-shadow_puppets-qtg3n0iz.png",
 									"frame": {
 										"x": 15,
-										"y": 562,
+										"y": 537,
 										"width": 330,
 										"height": 159
 									}
@@ -562,7 +705,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 15,
-							"y": 748,
+							"y": 723,
 							"width": 330,
 							"height": 159
 						},
@@ -579,7 +722,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 160,
-									"y": 846,
+									"y": 821,
 									"width": 165,
 									"height": 41
 								},
@@ -591,7 +734,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-modern_art_add-qtg2qum3.png",
 									"frame": {
 										"x": 160,
-										"y": 846,
+										"y": 821,
 										"width": 165,
 										"height": 41
 									}
@@ -611,7 +754,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								},
 								"layerFrame": {
 									"x": 35,
-									"y": 768,
+									"y": 743,
 									"width": 110,
 									"height": 115
 								},
@@ -623,7 +766,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-look_inside_modern_art-ouzeqzje.png",
 									"frame": {
 										"x": 35,
-										"y": 768,
+										"y": 743,
 										"width": 110,
 										"height": 115
 									}
@@ -638,7 +781,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 15,
-									"y": 748,
+									"y": 723,
 									"width": 330,
 									"height": 159
 								},
@@ -650,7 +793,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-modern_art-nthfnze4.png",
 									"frame": {
 										"x": 15,
-										"y": 748,
+										"y": 723,
 										"width": 330,
 										"height": 159
 									}
@@ -667,7 +810,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 15,
-							"y": 378,
+							"y": 353,
 							"width": 330,
 							"height": 159
 						},
@@ -684,7 +827,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 160,
-									"y": 476,
+									"y": 451,
 									"width": 165,
 									"height": 41
 								},
@@ -696,7 +839,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-butterfly_add-mddentbb.png",
 									"frame": {
 										"x": 160,
-										"y": 476,
+										"y": 451,
 										"width": 165,
 										"height": 41
 									}
@@ -716,7 +859,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								},
 								"layerFrame": {
 									"x": 35,
-									"y": 398,
+									"y": 373,
 									"width": 110,
 									"height": 115
 								},
@@ -728,7 +871,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-look_inside_butterfly-njfbnevc.png",
 									"frame": {
 										"x": 35,
-										"y": 398,
+										"y": 373,
 										"width": 110,
 										"height": 115
 									}
@@ -743,7 +886,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"maskFrame": null,
 								"layerFrame": {
 									"x": 15,
-									"y": 378,
+									"y": 353,
 									"width": 330,
 									"height": 159
 								},
@@ -755,7 +898,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"path": "images/Layer-butterfly-mdq3mjg4.png",
 									"frame": {
 										"x": 15,
-										"y": 378,
+										"y": 353,
 										"width": 330,
 										"height": 159
 									}
@@ -763,133 +906,6 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"children": []
 							}
 						]
-					}
-				]
-			},
-			{
-				"objectId": "BBA33948-AAE0-401C-8730-12C5A800DBFE",
-				"kind": "group",
-				"name": "swap_list",
-				"originalName": "swap_list",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 15,
-					"y": 298,
-					"width": 330,
-					"height": 67
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"children": [
-					{
-						"objectId": "33733D8F-1B04-48FF-BA0D-30D4B4D0E863",
-						"kind": "group",
-						"name": "choose_add_ons",
-						"originalName": "choose_add_ons*",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 190,
-							"y": 298,
-							"width": 155,
-							"height": 67
-						},
-						"visible": false,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-choose_add_ons-mzm3mzne.png",
-							"frame": {
-								"x": 190,
-								"y": 298,
-								"width": 155,
-								"height": 67
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "73688BF1-7C5E-472F-98A6-BBFDCACF8A6A",
-						"kind": "group",
-						"name": "choose_add_ons_disabled",
-						"originalName": "choose_add_ons_disabled*",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 190,
-							"y": 298,
-							"width": 155,
-							"height": 53
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-choose_add_ons_disabled-nzm2odhc.png",
-							"frame": {
-								"x": 190,
-								"y": 298,
-								"width": 155,
-								"height": 53
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "EF1181A8-20A3-47CE-B64C-7E140C8E3F42",
-						"kind": "group",
-						"name": "choose_crafts",
-						"originalName": "choose_crafts*",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 15,
-							"y": 298,
-							"width": 155,
-							"height": 67
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-choose_crafts-ruyxmtgx.png",
-							"frame": {
-								"x": 15,
-								"y": 298,
-								"width": 155,
-								"height": 67
-							}
-						},
-						"children": []
-					},
-					{
-						"objectId": "05FF3D7A-EC17-4F9F-9AC9-1EAB18D4E768",
-						"kind": "group",
-						"name": "choose_crafts_disabled",
-						"originalName": "choose_crafts_disabled*",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 16,
-							"y": 298,
-							"width": 155,
-							"height": 53
-						},
-						"visible": false,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-choose_crafts_disabled-mdvgrjne.png",
-							"frame": {
-								"x": 16,
-								"y": 298,
-								"width": 155,
-								"height": 53
-							}
-						},
-						"children": []
 					}
 				]
 			},
@@ -903,7 +919,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 					"x": 15,
 					"y": 229,
 					"width": 330,
-					"height": 53
+					"height": 100
 				},
 				"visible": true,
 				"metadata": {
@@ -915,7 +931,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"x": 15,
 						"y": 229,
 						"width": 330,
-						"height": 53
+						"height": 100
 					}
 				},
 				"children": [
@@ -1044,7 +1060,6 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"opacity": 1,
 							"string": "October 2018",
 							"css": [
-								"/* October 2018: */",
 								"font-family: Kent4F;",
 								"font-size: 22px;",
 								"color: #1BBEBF;",
@@ -1079,7 +1094,6 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"opacity": 1,
 							"string": "Next box",
 							"css": [
-								"/* Next box: */",
 								"font-family: Kent4F;",
 								"font-size: 22px;",
 								"color: #1BBEBF;",
@@ -1632,7 +1646,6 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"opacity": 1,
 							"string": "including P&P",
 							"css": [
-								"/* including P&P: */",
 								"font-family: ScalaSansPro-Regular;",
 								"font-size: 16px;",
 								"color: #FFFFFF;",
@@ -1667,7 +1680,6 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"opacity": 1,
 							"string": "October 2018",
 							"css": [
-								"/* October 2018: */",
 								"font-family: Kent4F;",
 								"font-size: 18px;",
 								"color: #FFFFFF;",
@@ -1775,7 +1787,6 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"opacity": 1,
 							"string": "including P&P",
 							"css": [
-								"/* including P&P: */",
 								"font-family: ScalaSansPro-Regular;",
 								"font-size: 16px;",
 								"color: #FFFFFF;",
@@ -1810,7 +1821,6 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"opacity": 1,
 							"string": "Next box",
 							"css": [
-								"/* Next box: */",
 								"font-family: Kent4F;",
 								"font-size: 18px;",
 								"color: #FFFFFF;",
@@ -1928,7 +1938,6 @@ window.__imported__["app@2x/layers.json.js"] = [
 					"opacity": 1,
 					"string": "crafts",
 					"css": [
-						"/* crafts: */",
 						"font-family: Kent4F;",
 						"font-size: 10px;",
 						"color: #FFFFFF;",
@@ -1963,7 +1972,6 @@ window.__imported__["app@2x/layers.json.js"] = [
 					"opacity": 0.75,
 					"string": "Add-ons",
 					"css": [
-						"/* Add-ons: */",
 						"font-family: Kent4F;",
 						"font-size: 10px;",
 						"color: #FFFFFF;",
@@ -2052,7 +2060,6 @@ window.__imported__["app@2x/layers.json.js"] = [
 					"opacity": 0.75,
 					"string": "crafts",
 					"css": [
-						"/* crafts: */",
 						"font-family: Kent4F;",
 						"font-size: 10px;",
 						"color: #FFFFFF;",
@@ -2087,7 +2094,6 @@ window.__imported__["app@2x/layers.json.js"] = [
 					"opacity": 1,
 					"string": "Add-ons",
 					"css": [
-						"/* Add-ons: */",
 						"font-family: Kent4F;",
 						"font-size: 10px;",
 						"color: #FFFFFF;",
