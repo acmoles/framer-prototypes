@@ -9,7 +9,8 @@ export class menuToggler
     @add_ons_disabled = @assignActiveState(@s.choose_add_ons_disabled, 'active')
 
     # sticky buttons
-    @createStickyTogglers()
+    @sticky_toggler_active = false
+    # @createStickyTogglers()
 
     # groups
     @craft_group = @s.craft_group
@@ -66,21 +67,26 @@ export class menuToggler
     self.add_ons_disabled.stateCycle 'inactive', 'active'
 
     # sticky button swaps
-    self.sticky_toggler_crafts.stateCycle 'active', 'inactive'
-    self.sticky_toggler_add_ons.stateCycle 'inactive', 'active'
-    self.sticky_toggler_crafts_future.stateCycle 'active', 'inactive'
-    self.sticky_toggler_add_ons_future.stateCycle 'inactive', 'active'
+    if @sticky_toggler_active
+      # body...
+      self.sticky_toggler_crafts.stateCycle 'active', 'inactive'
+      self.sticky_toggler_add_ons.stateCycle 'inactive', 'active'
+      self.sticky_toggler_crafts_future.stateCycle 'active', 'inactive'
+      self.sticky_toggler_add_ons_future.stateCycle 'inactive', 'active'
 
 
   gotoCraftState: (self) ->
     self.transitionBetween(self.craft_group, self.add_ons_group)
     self.transitionBetween(self.present_craft_group, self.present_add_ons_group)
     self.transitionBetween(self.future_craft_group, self.future_add_ons_group)
-
+    self.transitionBetween(@s.turq_background, @s.green_background)
+    
   gotoAddonsState: (self) ->
     self.transitionBetween(self.add_ons_group, self.craft_group)
     self.transitionBetween(self.present_add_ons_group, self.present_craft_group)
     self.transitionBetween(self.future_add_ons_group, self.future_craft_group)
+    self.transitionBetween(@s.green_background, @s.turq_background)
+
 
 
   transitionBetween: (incoming, outgoing) ->
@@ -116,6 +122,7 @@ export class menuToggler
 
 
   createStickyTogglers: () ->
+    @sticky_toggler_active = true
     @sticky_toggler_crafts = @assignActiveState(@s.sticky_menu_toggle, 'active')
     @sticky_toggler_crafts.x = 210
     @sticky_toggler_crafts.y = -1

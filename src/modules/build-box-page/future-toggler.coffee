@@ -57,14 +57,17 @@ export class futureToggler
     object.states =
       left:
         x: object.x - 325
+        opacity: 0
         animationOptions:
           time: 0.4
       active:
         x: object.x
+        opacity: 1
         animationOptions:
           time: 0.4
       right:
         x: object.x + 325
+        opacity: 0
         animationOptions:
           time: 0.4
     object.stateSwitch state

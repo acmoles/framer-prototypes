@@ -514,7 +514,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"x": 160,
 									"y": 965,
 									"width": 165,
-									"height": 41
+									"height": 40
 								},
 								"visible": true,
 								"metadata": {
@@ -526,7 +526,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 										"x": 160,
 										"y": 965,
 										"width": 165,
-										"height": 41
+										"height": 40
 									}
 								},
 								"children": []
@@ -619,7 +619,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"x": 160,
 									"y": 593,
 									"width": 165,
-									"height": 41
+									"height": 40
 								},
 								"visible": true,
 								"metadata": {
@@ -631,7 +631,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 										"x": 160,
 										"y": 593,
 										"width": 165,
-										"height": 41
+										"height": 40
 									}
 								},
 								"children": []
@@ -829,7 +829,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 									"x": 160,
 									"y": 409,
 									"width": 165,
-									"height": 41
+									"height": 40
 								},
 								"visible": true,
 								"metadata": {
@@ -841,7 +841,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 										"x": 160,
 										"y": 409,
 										"width": 165,
-										"height": 41
+										"height": 40
 									}
 								},
 								"children": []
@@ -914,7 +914,12 @@ window.__imported__["app@2x/layers.json.js"] = [
 				"kind": "group",
 				"name": "box_selector",
 				"originalName": "box_selector",
-				"maskFrame": null,
+				"maskFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 330,
+					"height": 96
+				},
 				"layerFrame": {
 					"x": 15,
 					"y": 187,
@@ -1039,6 +1044,60 @@ window.__imported__["app@2x/layers.json.js"] = [
 								"y": 196,
 								"width": 30,
 								"height": 34
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "7B163E1D-19A8-4526-B157-2A1BF222CC76",
+						"kind": "group",
+						"name": "blocker2",
+						"originalName": "blocker2",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 295,
+							"y": 187,
+							"width": 50,
+							"height": 50
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-blocker2-n0ixnjnf.png",
+							"frame": {
+								"x": 295,
+								"y": 187,
+								"width": 50,
+								"height": 50
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "9F62ABA4-0321-4C80-A602-276B5C4AC38D",
+						"kind": "group",
+						"name": "blocker",
+						"originalName": "blocker",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 15,
+							"y": 187,
+							"width": 50,
+							"height": 50
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-blocker-ouy2mkfc.png",
+							"frame": {
+								"x": 15,
+								"y": 187,
+								"width": 50,
+								"height": 50
 							}
 						},
 						"children": []
@@ -1514,22 +1573,13 @@ window.__imported__["app@2x/layers.json.js"] = [
 		"maskFrame": null,
 		"layerFrame": {
 			"x": 1288,
-			"y": 543,
+			"y": 563,
 			"width": 360,
-			"height": 130
+			"height": 110
 		},
 		"visible": true,
 		"metadata": {},
-		"backgroundColor": "rgba(255, 255, 255, 1)",
-		"image": {
-			"path": "images/Layer-box_mixer-m0y1qtff.png",
-			"frame": {
-				"x": 1288,
-				"y": 543,
-				"width": 360,
-				"height": 130
-			}
-		},
+		"backgroundColor": "rgba(27, 190, 191, 1)",
 		"children": [
 			{
 				"objectId": "6D7073B4-F646-4A05-A1A4-A448DF56C0C6",
@@ -1539,7 +1589,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 319,
-					"y": 45,
+					"y": 49,
 					"width": 40,
 					"height": 40
 				},
@@ -1551,7 +1601,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 					"path": "images/Layer-sticky_forward-nkq3mdcz.png",
 					"frame": {
 						"x": 319,
-						"y": 45,
+						"y": 49,
 						"width": 40,
 						"height": 40
 					}
@@ -1566,7 +1616,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 0,
-					"y": 45,
+					"y": 49,
 					"width": 40,
 					"height": 40
 				},
@@ -1578,7 +1628,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 					"path": "images/Layer-sticky_back-otawotze.png",
 					"frame": {
 						"x": 0,
-						"y": 45,
+						"y": 49,
 						"width": 40,
 						"height": 40
 					}
@@ -1593,9 +1643,9 @@ window.__imported__["app@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 45,
-					"y": 11,
+					"y": 12,
 					"width": 270,
-					"height": 109
+					"height": 88
 				},
 				"visible": true,
 				"metadata": {
@@ -1609,15 +1659,15 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"originalName": "pandp_future",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 97,
-							"y": 32,
-							"width": 97,
-							"height": 18
+							"x": 253,
+							"y": 12,
+							"width": 62,
+							"height": 14
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1,
-							"string": "including P&P",
+							"string": "incl. P&P",
 							"css": [
 								"font-family: ScalaSansPro-Regular;",
 								"font-size: 16px;",
@@ -1628,10 +1678,10 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-pandp_future-rjexrki2.png",
 							"frame": {
-								"x": 97,
-								"y": 32,
-								"width": 97,
-								"height": 18
+								"x": 253,
+								"y": 12,
+								"width": 62,
+								"height": 14
 							}
 						},
 						"children": []
@@ -1644,14 +1694,14 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 45,
-							"y": 11,
-							"width": 128,
+							"y": 12,
+							"width": 80,
 							"height": 14
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1,
-							"string": "October 2018",
+							"string": "Oct 2018",
 							"css": [
 								"font-family: Kent4F;",
 								"font-size: 18px;",
@@ -1663,8 +1713,8 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"path": "images/Layer-sticky_box_name-qkvdqjne.png",
 							"frame": {
 								"x": 45,
-								"y": 11,
-								"width": 128,
+								"y": 12,
+								"width": 80,
 								"height": 14
 							}
 						},
@@ -1678,7 +1728,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 45,
-							"y": 60,
+							"y": 40,
 							"width": 270,
 							"height": 60
 						},
@@ -1690,7 +1740,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"path": "images/Layer-add_on_layer_future-oee5odyx.png",
 							"frame": {
 								"x": 45,
-								"y": 60,
+								"y": 40,
 								"width": 270,
 								"height": 60
 							}
@@ -1705,7 +1755,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 45,
-							"y": 60,
+							"y": 40,
 							"width": 270,
 							"height": 60
 						},
@@ -1717,7 +1767,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"path": "images/Layer-craft_layer_future-mtc5nuux.png",
 							"frame": {
 								"x": 45,
-								"y": 60,
+								"y": 40,
 								"width": 270,
 								"height": 60
 							}
@@ -1734,9 +1784,9 @@ window.__imported__["app@2x/layers.json.js"] = [
 				"maskFrame": null,
 				"layerFrame": {
 					"x": 45,
-					"y": 11,
+					"y": 12,
 					"width": 270,
-					"height": 109
+					"height": 88
 				},
 				"visible": true,
 				"metadata": {
@@ -1750,15 +1800,15 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"originalName": "pandp",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 97,
-							"y": 32,
-							"width": 97,
-							"height": 18
+							"x": 253,
+							"y": 12,
+							"width": 62,
+							"height": 14
 						},
 						"visible": true,
 						"metadata": {
 							"opacity": 1,
-							"string": "including P&P",
+							"string": "incl. P&P",
 							"css": [
 								"font-family: ScalaSansPro-Regular;",
 								"font-size: 16px;",
@@ -1769,10 +1819,10 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-pandp-mzrdnuy0.png",
 							"frame": {
-								"x": 97,
-								"y": 32,
-								"width": 97,
-								"height": 18
+								"x": 253,
+								"y": 12,
+								"width": 62,
+								"height": 14
 							}
 						},
 						"children": []
@@ -1785,7 +1835,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 45,
-							"y": 11,
+							"y": 12,
 							"width": 85,
 							"height": 14
 						},
@@ -1804,7 +1854,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"path": "images/Layer-sticky_box_name-qtmzney4.png",
 							"frame": {
 								"x": 45,
-								"y": 11,
+								"y": 12,
 								"width": 85,
 								"height": 14
 							}
@@ -1819,7 +1869,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 45,
-							"y": 60,
+							"y": 40,
 							"width": 270,
 							"height": 60
 						},
@@ -1831,7 +1881,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"path": "images/Layer-add_on_layer-rty0njbc.png",
 							"frame": {
 								"x": 45,
-								"y": 60,
+								"y": 40,
 								"width": 270,
 								"height": 60
 							}
@@ -1846,7 +1896,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"maskFrame": null,
 						"layerFrame": {
 							"x": 45,
-							"y": 60,
+							"y": 40,
 							"width": 270,
 							"height": 60
 						},
@@ -1858,7 +1908,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 							"path": "images/Layer-craft_layer-qti4nuzc.png",
 							"frame": {
 								"x": 45,
-								"y": 60,
+								"y": 40,
 								"width": 270,
 								"height": 60
 							}
@@ -1866,6 +1916,60 @@ window.__imported__["app@2x/layers.json.js"] = [
 						"children": []
 					}
 				]
+			},
+			{
+				"objectId": "59B404F3-2E6B-420A-BE62-1BE03317A763",
+				"kind": "group",
+				"name": "green_background",
+				"originalName": "green_background",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": -4,
+					"width": 360,
+					"height": 114
+				},
+				"visible": false,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-green_background-ntlcnda0.png",
+					"frame": {
+						"x": 0,
+						"y": -4,
+						"width": 360,
+						"height": 114
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "3900F10E-A510-4FDE-A0DA-5A629F3A48D9",
+				"kind": "group",
+				"name": "turq_background",
+				"originalName": "turq_background",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 0,
+					"y": -4,
+					"width": 360,
+					"height": 114
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-turq_background-mzkwmeyx.png",
+					"frame": {
+						"x": 0,
+						"y": -4,
+						"width": 360,
+						"height": 114
+					}
+				},
+				"children": []
 			}
 		]
 	},
@@ -1883,7 +1987,7 @@ window.__imported__["app@2x/layers.json.js"] = [
 		},
 		"visible": true,
 		"metadata": {},
-		"backgroundColor": "rgba(255, 255, 255, 0)",
+		"backgroundColor": "rgba(0, 0, 0, 0)",
 		"image": {
 			"path": "images/Layer-sticky_menu_toggle-mevdoty1.png",
 			"frame": {

@@ -7,9 +7,9 @@ export class stickyBuilder
     @s.box_mixer.visible = false
     @container = new Layer
         width: 360
-        height: 134
+        height: 114
         clip: true
-        y: -134
+        y: -114
         backgroundColor: 'transparent'
     @flow.footer.addChild(@container)
 
@@ -98,18 +98,21 @@ export class stickyBuilder
     console.log 'present add-on array: ', @image_slots_add_ons
     console.log 'present total: ', presentTotal
     if (presentTotal > 9.95)
-      @s.pandp.x = 62
+      @price.stateSwitch('pushed')
     else
-      @s.pandp.x = 52
+      @price.stateSwitch('regular')
+
+
     @price.template = presentTotal
 
     futureTotal = @boxPriceTotal(@image_slots_crafts_future, @image_slots_add_ons_future)
     console.log 'future craft array: ', @image_slots_crafts_future
     console.log 'future total: ', futureTotal
     if (futureTotal > 9.95)
-      @s.pandp_future.x = 62
+      @price_future.stateSwitch('pushed')
     else
-      @s.pandp_future.x = 52
+      @price_future.stateSwitch('regular')
+
     @price_future.template = futureTotal
 
 
@@ -136,11 +139,16 @@ export class stickyBuilder
 
     @price = new TextLayer
       text: '£{price}'
-      y: 17
-      x: 0
+      y: -5
+      x: 154
       fontSize: 18
       fontFamily: 'Kent4F'
       color: '#FFFFFF'
+
+    @price.states.regular =
+      x: 154
+    @price.states.pushed =
+      x: 145
 
     @price.template = 9.95
 
@@ -148,11 +156,16 @@ export class stickyBuilder
 
     @price_future = new TextLayer
       text: '£{price}'
-      y: 17
-      x: 0
+      y: -5
+      x: 154
       fontSize: 18
       fontFamily: 'Kent4F'
       color: '#FFFFFF'
+
+    @price_future.states.regular =
+      x: 154
+    @price_future.states.pushed =
+      x: 145
 
     @price_future.template = 9.95
 
