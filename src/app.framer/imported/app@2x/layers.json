@@ -16,6 +16,142 @@
 		"backgroundColor": "rgba(255, 255, 255, 1)",
 		"children": [
 			{
+				"objectId": "F34E1A57-9EDA-42B0-911F-7F2D438059BC",
+				"kind": "group",
+				"name": "logout",
+				"originalName": "logout",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 266,
+					"y": 0,
+					"width": 84,
+					"height": 40
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-logout-rjm0rtfb.png",
+					"frame": {
+						"x": 266,
+						"y": 0,
+						"width": 84,
+						"height": 40
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "4D535896-EAD8-4C92-B4D3-CEDC063C7FFE",
+				"kind": "group",
+				"name": "menu",
+				"originalName": "menu",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 10,
+					"y": 0,
+					"width": 90,
+					"height": 40
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-menu-neq1mzu4.png",
+					"frame": {
+						"x": 10,
+						"y": 0,
+						"width": 90,
+						"height": 40
+					}
+				},
+				"children": [
+					{
+						"objectId": "DF201CFD-C42A-42DE-AD32-B6E312D60CE1",
+						"kind": "group",
+						"name": "Group",
+						"originalName": "Group",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 25,
+							"y": 11,
+							"width": 58,
+							"height": 12
+						},
+						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Group-reyymdfd.png",
+							"frame": {
+								"x": 25,
+								"y": 11,
+								"width": 58,
+								"height": 12
+							}
+						},
+						"children": []
+					}
+				]
+			},
+			{
+				"objectId": "1987E095-0D8A-41B6-8581-65A411FC6B15",
+				"kind": "group",
+				"name": "done",
+				"originalName": "done",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 270,
+					"y": 137,
+					"width": 80,
+					"height": 42
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-done-mtk4n0uw.png",
+					"frame": {
+						"x": 270,
+						"y": 137,
+						"width": 80,
+						"height": 42
+					}
+				},
+				"children": []
+			},
+			{
+				"objectId": "209FC082-E0BF-4F7A-9377-969B9CE52269",
+				"kind": "group",
+				"name": "back",
+				"originalName": "back",
+				"maskFrame": null,
+				"layerFrame": {
+					"x": 5,
+					"y": 137,
+					"width": 80,
+					"height": 42
+				},
+				"visible": true,
+				"metadata": {
+					"opacity": 1
+				},
+				"image": {
+					"path": "images/Layer-back-mja5rkmw.png",
+					"frame": {
+						"x": 5,
+						"y": 137,
+						"width": 80,
+						"height": 42
+					}
+				},
+				"children": []
+			},
+			{
 				"objectId": "BBA33948-AAE0-401C-8730-12C5A800DBFE",
 				"kind": "group",
 				"name": "swap_list",
@@ -1179,9 +1315,9 @@
 				"maskFrame": null,
 				"layerFrame": {
 					"x": -14,
-					"y": 0,
+					"y": 32,
 					"width": 374,
-					"height": 2000
+					"height": 1968
 				},
 				"visible": true,
 				"metadata": {
@@ -1191,9 +1327,9 @@
 					"path": "images/Layer-background-m0ffoum1.png",
 					"frame": {
 						"x": -14,
-						"y": 0,
+						"y": 32,
 						"width": 374,
-						"height": 2000
+						"height": 1968
 					}
 				},
 				"children": []
@@ -1578,7 +1714,7 @@
 		},
 		"visible": true,
 		"metadata": {},
-		"backgroundColor": "rgba(27, 190, 191, 1)",
+		"backgroundColor": "rgba(27.000000000000007, 190, 191, 1)",
 		"children": [
 			{
 				"objectId": "6D7073B4-F646-4A05-A1A4-A448DF56C0C6",
