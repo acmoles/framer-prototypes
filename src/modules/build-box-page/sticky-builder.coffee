@@ -21,6 +21,10 @@ export class stickyBuilder
     @image_slots_crafts_future = []
     @image_slots_add_ons_future = []
 
+    # hide wayward togglers
+    @s.sticky_menu_toggle.visible = false
+    @s.sticky_menu_toggle_add_ons.visible = false
+
   init: () ->
     @s.box_mixer.visible = true
     @s.box_mixer.x = 0
