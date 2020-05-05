@@ -2,7 +2,8 @@
   "name": "toucanbox-personalisation",
   "version": "0.0.1",
   "engines": {
-    "node": "8.17.x"
+    "node": "8.11.2",
+    "npm": "6.1.0"
   },
   "description": "A tool for rapid prototyping with Sketch and Framer.js",
   "author": "",
@@ -29,9 +30,5 @@
     "clean": "gulp clean",
     "build": "gulp build",
     "serve": "harp server ./build"
-  },
-  "engines": {
-    "node": "8.11.2",
-    "npm": "6.1.0"
   }
 }
