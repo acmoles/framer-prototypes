@@ -1,11 +1,13 @@
 {
   "name": "ux-framer-prototyping",
   "version": "0.0.1",
+  "engines": {
+    "node": "8.17.x"
+  },
   "description": "A tool for rapid prototyping with Sketch and Framer.js",
   "author": "",
   "license": "MIT",
   "repository": "none",
-  "engines" : { "node" : "8.17.x" },
   "dependencies": {
     "browser-sync": "^2.18.13",
     "coffee-loader": "^0.9.0",
