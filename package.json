@@ -1,6 +1,9 @@
 {
-  "name": "ux-framer-prototyping",
+  "name": "personalisation",
   "version": "0.0.1",
+  "engines": {
+    "node": "8.16.x"
+  },
   "description": "A tool for rapid prototyping with Sketch and Framer.js",
   "author": "",
   "license": "MIT",
